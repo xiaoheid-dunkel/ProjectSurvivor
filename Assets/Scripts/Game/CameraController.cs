@@ -5,6 +5,7 @@ using Random = UnityEngine.Random;
 
 namespace ProjectSurvivor
 {
+    
     //Partial class declaration, inheriing from ViewController
     public partial class CameraController : ViewController
     {
@@ -16,6 +17,8 @@ namespace ProjectSurvivor
         public static Transform LBTrans => mDefault.LB;
         //Static property: Get the trasform component of the right-top boundary
         public static Transform RTTrans => mDefault.RT;
+
+        
 
         private void Awake()
         {
